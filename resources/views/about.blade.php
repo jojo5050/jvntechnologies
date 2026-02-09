@@ -23,24 +23,71 @@
 <section class="py-20 px-6 bg-white">
     <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
         <div class="order-2 md:order-1">
+            <img src="{{ asset('images/hero-slider1.jpg') }}" alt="Team work" class="rounded-2xl shadow-2xl mb-6">
             <img src="{{ asset('images/hero-slider1.jpg') }}" alt="Team work" class="rounded-2xl shadow-2xl">
         </div>
         <div class="order-1 md:order-2 space-y-6">
-            <h2 class="text-3xl font-bold text-gray-900">Who We Are</h2>
-            <p class="text-gray-600 leading-relaxed">
-                At <b>JVN Technologies</b>, we don't just build apps; we architect digital ecosystems. Founded on the principles of technical excellence and strategic innovation,
-                we have grown into a premier software development firm dedicated to solving the most complex business challenges. 
-                Our team is a collective of visionary developers, designers, and strategists who believe that well-crafted code is the foundation of modern business success.
+            <h2 class="text-3xl font-bold text-gray-900">About JVN Technologies</h2>
+            
+            <h2 class="text-xl font-semi-bold text-blue-900"><strong>Our Journey </strong></h2>
+            <p class="text-black-600 mb-6 leading-relaxed">
+            Established in <strong>2018, JVN Technologies</strong> has rapidly emerged as a leading software development Company in <strong>Nigeria.</strong> Headquartered in the heart of the Federal Capital Territory, Abuja,
+            we are driven by a mission to bridge the gap between complex business challenges and intuitive digital solutions. We don’t just build software; 
+            we build the tools that empower Nigerian businesses to thrive in a global digital economy.
             </p>
-            <p class="text-gray-600 leading-relaxed">
-            We specialize in bridging the gap between ambitious ideas and functional reality. Whether it’s a high-scale enterprise platform or a disruptive startup MVP, 
-            JVN Technologies delivers precision-engineered software that is secure, scalable, and built to last.
-            With years of experience in the tech industry, we've helped startups and established enterprises alike scale their operations through custom-built internal tools and public-facing platforms.
+
+            <h2 class="text-xl font-semi-bold text-blue-900"><strong>Our Experties  </strong></h2>
+            
+            <p class="text-black-600 mb-8 leading-relaxed">
+            Whether you are a startup looking for a rapid market entry or an established firm requiring robust architecture, our team delivers:
+                <ul>
+                <li><strong>Web Development:</strong> We specialize in both high-performance traditional technologies (Laravel, React, Node.js) and flexible, user-friendly WordPress solutions.</li><br>
+                <li><strong>Mobile Application Development:</strong> Crafting seamless experiences for iOS and Android that put your business in the palms of your customers' hands.</li><br>
+                <li><strong>Desktop Solutions:</strong> Engineering powerful, native applications for PCs designed for maximum performance and reliability.</li><br>
+                </ul>
             </p>
-            <p class="text-gray-600 leading-relaxed">
-                With years of experience in the tech industry, we've helped startups and established enterprises alike scale their operations
-                 through custom-built internal tools and public-facing platforms.
-            </p>
+
+        
+            <h2 class="text-xl font-semi-bold text-blue-900"><strong>Proven Track Record  </strong></h2>
+            
+            <p>Since our inception, we have successfully deployed a diverse array of high-impact digital products across various industries:</p>
+            <ul>
+                <li><strong>Enterprise Systems:</strong> Comprehensive Inventory Management Systems engineered to function flawlessly both <strong>online and offline</strong>.</li><br>
+                <li><strong>E-Commerce:</strong> Scalable online stores and marketplaces designed to maximize conversions and simplify logistics.</li><br>
+                <li><strong>Specialized Apps:</strong> Custom-built Logistics platforms, Dating applications, and specialized NGO & Charity websites.</li><br>
+            </ul>
+
+        </div>
+    </div>
+</section>
+
+<section class="py-16 bg-gray-50 px-6">
+    <div class="max-w-7xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-12">Our Services</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
+                <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-4">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Web Development</h3>
+                <p class="text-gray-500">Scalable and performant web applications built with the latest tech stack.</p>
+            </div>
+            
+            <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
+                <div class="w-12 h-12 bg-green-100 text-green-600 rounded-lg flex items-center justify-center mb-4">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Mobile Apps</h3>
+                <p class="text-gray-500">Native and cross-platform mobile experiences for iOS and Android.</p>
+            </div>
+
+            <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
+                <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-lg flex items-center justify-center mb-4">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Cloud Solutions</h3>
+                <p class="text-gray-500">Modernizing your infrastructure with secure and cost-effective cloud services.</p>
+            </div>
         </div>
     </div>
 </section>

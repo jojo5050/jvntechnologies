@@ -3,6 +3,7 @@
 <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="A leading software development company in Nigeria. Headquartered in the heart of the Federal Capital Territory, Abuja">
 
         <title>JVN Technologies</title>
         @vite(['resources/css/app.css', 'resources/js/app.js'])
