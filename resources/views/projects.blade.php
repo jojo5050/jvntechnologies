@@ -1,5 +1,8 @@
 @extends('layout')
 
+@section('title', 'Our Projects | JVN Technologies Portfolio')
+@section('meta_description', 'Explore our software solutions Logistics applications, e-commerce platform, e-learning and business platforms, wordpress websites, and laravel projects in Nigeria')
+
 @section('content')
 <div class="relative bg-blue-900 py-24 overflow-hidden">
     <div class="absolute inset-0 z-0">

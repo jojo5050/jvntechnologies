@@ -1,5 +1,8 @@
 @extends('layout')
 
+@section('title', 'About Us | JVN Technologies Abuja')
+@section('meta_description', 'Get in touch with JVN Technologies for custom software, SaaS software, Logistics software, inventory software, and e-commerce development in Nigeria.')
+
 @section('content')
 <div class="relative bg-blue-900 py-24 overflow-hidden">
     <div class="absolute inset-0 z-0">
