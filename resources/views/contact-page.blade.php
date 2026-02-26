@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title', 'Contact Us | JVN Technologies Abuja')
-@section('meta_description', 'Get in touch with JVN Technologies for custom software, SaaS software, Logistics software, inventory software, and e-commerce development in Nigeria.')
+@section('meta_description', 'Free Pdf editor, split pdf for free, merge pdf files for free, convert all file extensions for free.')
 
 @section('content')
 <div class="relative bg-blue-900 py-24 overflow-hidden">
