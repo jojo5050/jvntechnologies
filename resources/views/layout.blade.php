@@ -11,6 +11,7 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
         
     </head>
 
@@ -27,11 +28,37 @@
         animation: marquee 30s linear infinite;
     }
 
-    /* Pause animation on hover */
     .animate-marquee:hover {
         animation-play-state: paused;
     }
      }
+
+     .nav-link {
+        color: #ffffff; 
+        position: relative;
+        transition: color 0.3s ease;
+        text-decoration: none;
+    }
+
+    .nav-link.active {
+        color: #2563eb !important; 
+        font-weight: 700;
+    }
+
+    .nav-link.active::after {
+        content: '';
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: #2563eb;
+    }
+
+  
+    .nav-link:hover {
+        color: #2563eb;
+    }
     </style>
 
 <body class="bg-gray-100 min-h-screen">

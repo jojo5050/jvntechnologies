@@ -23,8 +23,8 @@
 <section class="py-20 px-6 bg-white">
     <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
         <div class="order-2 md:order-1">
-            <img src="{{ asset('images/hero-slider1.jpg') }}" alt="Team work" class="rounded-2xl shadow-2xl mb-6">
-            <img src="{{ asset('images/hero-slider1.jpg') }}" alt="Team work" class="rounded-2xl shadow-2xl">
+            <img src="{{ asset('images/hero-slider1.jpg') }}" alt="jvn tech" class="rounded-2xl shadow-2xl mb-6">
+            <img src="{{ asset('images/jvnpic2.jpg') }}" alt="jvn tech" class="rounded-2xl shadow-2xl">
         </div>
         <div class="order-1 md:order-2 space-y-6">
             <h2 class="text-3xl font-bold text-gray-900">About JVN Technologies</h2>

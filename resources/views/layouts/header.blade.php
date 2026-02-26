@@ -1,14 +1,35 @@
 <header class="bg-gray-800 text-white shadow">
     <div class="container mx-auto px-4 py-4 flex justify-between items-center">
         <a href="{{ url('/') }}">
-            <img src="{{ asset('site-logo.png') }}" alt="Site Logo" style="height: 50px; width: auto;">
+            <img src="{{ asset('images/JVN1_trans_bg.png') }}" alt="Site Logo" style="height: 50px; width: auto;">
+         
         </a>
         <nav>
-            <ul class="flex items-center space-x-4 md:space-x-6">
-                <li><a href="{{url('/')}}" class="hover:underline">Home</a></li>
-                <li><a href="{{ url('/about') }}" class="hover:underline">About</a></li>
-                <li><a href="{{ url('/#') }}" class="hover:underline">Contact</a></li>
-                
+            <ul class="flex space-x-8">
+                <li>
+                    <a href="{{ url('/') }}" 
+                    class="nav-link {{ request()->is('/') ? 'active' : '' }}">
+                    Home
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ url('/about') }}" 
+                    class="nav-link {{ request()->is('about') ? 'active' : '' }}">
+                    About
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ url('/our-projects') }}" 
+                    class="nav-link {{ request()->is('our-projects') ? 'active' : '' }}">
+                    Projects
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ url('/contact_page') }}" 
+                    class="nav-link {{ request()->is('contact_page') ? 'active' : '' }}">
+                    Contact
+                    </a>
+                </li>
             </ul>
         </nav>
     </div>

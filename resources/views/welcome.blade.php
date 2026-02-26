@@ -136,6 +136,13 @@
                 <h3 class="text-xl font-bold mb-2">Cyber Security Services</h3>
                 <p class="text-gray-500">Web Application Vulnerability accessment, Ethical Hacking and Countermeasures, Secure Network Settup</p>
             </div>
+            <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
+                <div class="w-12 h-12 bg-red-100 text-red-600 rounded-lg flex items-center justify-center mb-4">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Tech Training</h3>
+                <p class="text-gray-500">At JVN Techologies, we teach tech related course ranging from programing, neworking, cyber security, Ethical Hacking. We also offer Co-operate training, both onsite and remote tutoring. </p>
+            </div>
         </div>
     </div>
 </section>
@@ -151,12 +158,13 @@
         <div class="relative overflow-hidden" 
              x-data="{ 
                 logos: [
-                    '{{ asset('images/hero-slider1.jpg') }}',
-                    '{{ asset('images/hero-slide2.jpg') }}',
-                    '{{ asset('images/hero-slide3.jpg') }}',
-                    '{{ asset('images/hero-slide2.jpg') }}',
-                    '{{ asset('images/hero-slide3.jpg') }}'
-                   
+                    '{{ asset('images/boahj-logo.png') }}',
+                    '{{ asset('images/darlgroup-logo.jpeg') }}',
+                    '{{ asset('images/fame.png') }}',
+                    '{{ asset('images/lgti-logistics.png') }}',
+                    '{{ asset('images/min-of-healthlogo.jpg') }}',
+                    '{{ asset('images/FIRS.jpg') }}',
+                    '{{ asset('images/neximbank-logo.pnp') }}'                
                 ] 
              }">
             
