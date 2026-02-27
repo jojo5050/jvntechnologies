@@ -72,7 +72,7 @@
                 <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-4">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
                 </div>
-                <h3 class="text-xl font-bold mb-2">Web Development</h3>
+                <h3 class="text-xl font-bold mb-2">Website Development</h3>
                 <p class="text-gray-500">Scalable and performant web applications built with the latest tech stack.</p>
             </div>
             
@@ -80,7 +80,7 @@
                 <div class="w-12 h-12 bg-green-100 text-green-600 rounded-lg flex items-center justify-center mb-4">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
                 </div>
-                <h3 class="text-xl font-bold mb-2">Mobile Apps</h3>
+                <h3 class="text-xl font-bold mb-2">Mobile Apps Development</h3>
                 <p class="text-gray-500">Native and cross-platform mobile experiences for iOS and Android.</p>
             </div>
 
@@ -88,8 +88,15 @@
                 <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-lg flex items-center justify-center mb-4">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
                 </div>
-                <h3 class="text-xl font-bold mb-2">Cloud Solutions</h3>
-                <p class="text-gray-500">Modernizing your infrastructure with secure and cost-effective cloud services.</p>
+                <h3 class="text-xl font-bold mb-2">Cyber Security Services</h3>
+                <p class="text-gray-500">Web Application Vulnerability accessment, Ethical Hacking and Countermeasures, Secure Network Settup</p>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
+                <div class="w-12 h-12 bg-red-100 text-red-600 rounded-lg flex items-center justify-center mb-4">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Tech Training</h3>
+                <p class="text-gray-500">At JVN Techologies, we teach tech related course ranging from programing, neworking, cyber security, Ethical Hacking. We also offer Co-operate training, both onsite and remote tutoring. </p>
             </div>
         </div>
     </div>
